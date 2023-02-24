@@ -1,3 +1,36 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  min-width: 120px;
+}
+
+.Header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  border-bottom: 2px solid #ccc;
+  background: #fff;
+}
+
+.ButtonGroup {
+  padding-left: 16px;
+  border-left: 1px solid #ccc;
+}
+
+.ButtonGroup button {
+  margin: 0 4px;
+}
+
+.LandingPage {
+  min-height: 100vh;
+  background: #ddd;
 }
